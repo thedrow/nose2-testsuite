@@ -6,6 +6,6 @@ python:
   - "3.3"
   - "pypy"
 install:
-  - pip install ./requirements/development.txt --use-mirrors
+  - pip install -r ./requirements/development.txt --use-mirrors
 script:
   nose2
