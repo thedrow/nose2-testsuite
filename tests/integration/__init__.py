@@ -1,0 +1,2 @@
+class IntegrationTestsLayer(object):
+    pass

@@ -1,0 +1,2 @@
+class FunctionalTestsLayer(object):
+    pass
