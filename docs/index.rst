@@ -1,3 +1,4 @@
+===========================================
 Welcome to nose2-testsuite's documentation!
 ===========================================
 
@@ -7,7 +8,7 @@ Welcome to nose2-testsuite's documentation!
    It is still not ready for use in production.
 
 Getting Started
----------------
+===============
 
 .. toctree::
    :maxdepth: 2
@@ -16,19 +17,20 @@ Getting Started
    installing.rst
 
 Tutorial
---------
+========
 
 .. toctree::
    :maxdepth: 2
 
 Resources
----------
+=========
 
 .. toctree::
    :maxdepth: 2
 
    support.rst
    contributing.rst
+   releasenotes.rst
 
 Indices and tables
 ==================

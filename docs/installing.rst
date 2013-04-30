@@ -1,14 +1,15 @@
+==========
 Installing
 ==========
 
 Requirements
-------------
+============
 nose2-testsuite requires the following dependencies:
 
 - nose2
 
 Using pip
----------
+=========
 
 .. note::
 
@@ -21,7 +22,7 @@ Install using pip
     pip install nose2-testsuite
 
 From source
------------
+===========
 Clone the repository and run setup.py
 
 .. code-block:: bash
