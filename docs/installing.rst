@@ -23,7 +23,7 @@ Install using pip
 
 From source
 ===========
-Clone the repository and run setup.py
+If you want the bleeding edge clone the repository and run setup.py
 
 .. code-block:: bash
 
