@@ -1,9 +1,20 @@
 Installing
 ==========
 
+Requirements
+------------
+nose2-testsuite requires the following dependencies:
+
+- nose2
+
 Using pip
 ---------
-Install pip and run
+
+.. note::
+
+    Since this project is not released installation via pip is not yet possible.
+
+Install using pip
 
 .. code-block:: bash
 
