@@ -31,6 +31,7 @@ Resources
    support.rst
    contributing.rst
    releasenotes.rst
+   roadmap.rst
 
 Indices and tables
 ==================
