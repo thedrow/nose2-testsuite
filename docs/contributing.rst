@@ -50,7 +50,7 @@ In order to contribute documentation to nose2-testsuite you must have the follow
 - `Sphinx <http://sphinx-doc.org/index.html>`_
 - `sphinx-bootstrap-theme <http://ryan-roemer.github.io/sphinx-bootstrap-theme/README.html>`_
 
-Please follow the instructions on the provided links to install the required software.
+Please follow the instructions on the provided links & on this document to install the required software.
 
 .. note::
 
@@ -69,7 +69,7 @@ Please follow the instructions on the provided links to install the required sof
 Required knowledge & experience
 -------------------------------
 
-In order to edit the documentation you must be familiar with `reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`_.
+- In order to edit the documentation you must be familiar with `reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`_.
 
 Building the documentation
 --------------------------
