@@ -47,6 +47,8 @@ if "%1" == "clean" (
 if "%1" == "html" (
 	%SPHINXBUILD% -b html %ALLSPHINXOPTS% %BUILDDIR%/html
 	if errorlevel 1 exit /b 1
+	echo.Opening browser...
+    python -m webbrowser -t $(BUILDDIR)/html/index.html
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/html.
 	goto end

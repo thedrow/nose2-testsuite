@@ -43,6 +43,9 @@ clean:
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	echo
+	@echo "Opening browser..."
+	python -m webbrowser -t $(BUILDDIR)/html/index.html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
