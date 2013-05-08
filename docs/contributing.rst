@@ -145,3 +145,33 @@ If you'd like to contribute a logo or a new design do not hesitate to bring idea
 
 You will be credited for your work and a link to your website and to a selection of social networks accounts you maintain
 will appear on the documentation's footer.
+
+Contributing Code
+=================
+
+Requirements
+------------
+
+In order to contribute code to nose2-testsuite you must have the following software installed:
+
+- `Git <http://git-scm.com/book/en/Getting-Started-Installing-Git>`_
+- `Python <http://python.org>`_ (Versions `2.6 <http://python.org/download/releases/2.6.8/>`_, `2.7 <http://python.org/download/releases/2.7.4/>`_, `3.2 <http://python.org/download/releases/3.2.4/>`_, `3.3 <http://python.org/download/releases/3.3.1/>`_ & `pypy <http://pypy.org/download.html>`_)
+- `pip <https://pypi.python.org/pypi/pip>`_
+- `virtualenv <https://pypi.python.org/pypi/virtualenv>`_
+- `virtualenvwrapper <http://virtualenvwrapper.readthedocs.org/en/latest/>`_ or `virtualenvwrapper-powershell <https://pypi.python.org/pypi/virtualenvwrapper-powershell>`_ if you are developing using windows.
+- `nose2 <https://nose2.readthedocs.org/en/latest/>`_
+- `tox <http://tox.readthedocs.org/en/latest/>`_
+- `autopep8 <https://pypi.python.org/pypi/autopep8/>`_
+- `pylint <http://www.pylint.org/>`_
+- `travis-lint <https://github.com/travis-ci/travis-lint/>`_ if you are changing the build process.
+- `Sphinx <http://sphinx-doc.org/index.html>`_
+- `sphinx-bootstrap-theme <http://ryan-roemer.github.io/sphinx-bootstrap-theme/README.html>`_
+
+.. warning::
+
+    virtualenvwrapper-powershell is not stable enough and `currently it does not work with Python 3.x <https://bitbucket.org/guillermooo/virtualenvwrapper-powershell/pull-request/3/add-support-for-pip-installation-under/diff>`_.
+    You can create your `virtualenv <http://www.virtualenv.org/en/latest/#usage>`_ without virtualenvwrapper-powershell but it is certainly less comfortable.
+
+    Due to that the recommended development operating system is Linux.
+
+Please follow the instructions on the provided links & on this document to install the required software.
