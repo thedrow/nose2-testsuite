@@ -23,7 +23,7 @@ General guidelines about pull requests for this project
 
 .. note::
 
-    Pull requests containing offending commits **will not be merged** until they are amended.
+    Pull requests containing offending commits **will not be merged** until they will be amended.
 
 Contributing Documentation
 ==========================
