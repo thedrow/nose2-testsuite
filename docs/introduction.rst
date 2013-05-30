@@ -1,7 +1,7 @@
 Introduction
 ============
 
-nose2-testsuite is a highly opinioned nose2 plugin that aims to assist you to write a better test suite.
+nose2-testsuite is a highly opinionated nose2 plugin that aims to assist you to write a better test suite.
 
 Overview
 --------
