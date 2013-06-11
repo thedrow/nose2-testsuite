@@ -12,7 +12,7 @@ with such.A('Unit Tests Layer') as it:
     it.createTests(globals())
         
 with such.A('Functional Tests Layer') as it:
-    it.uses(layers.FunctionalTestsLayer)
+    it.uses(layers.UnitTestsLayer)
 
     @it.should("have 'Functional Tests Layer:' as the description")
     def test_should_have_correct_description(case):
@@ -21,7 +21,7 @@ with such.A('Functional Tests Layer') as it:
     it.createTests(globals())
         
 with such.A('Integration Tests Layer') as it:
-    it.uses(layers.IntegrationTestsLayer)
+    it.uses(layers.UnitTestsLayer)
 
     @it.should("have 'Integration Tests Layer:' as the description")
     def test_should_have_correct_description(case):
