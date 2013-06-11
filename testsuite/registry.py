@@ -9,9 +9,12 @@ class ModulesRegistry(object):
         try:
             return self._registry[-1]
         except IndexError:
-            return []
+            return {}
 
     def register(self, state):
+        if not isinstance(state, dict):
+            raise TypeError('Expected dictionary. Got %s instead.' % type(state))
+
         self._registry.append(state)
 
     def unregister(self):

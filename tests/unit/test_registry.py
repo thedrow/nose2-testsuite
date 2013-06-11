@@ -9,18 +9,25 @@ with such.A("Modules Registry") as it:
     @it.should('have nothing registered when initialized')
     def test_should_be_empty_on_initialization(case):
         sut = ModulesRegistry()
-        expected = []
+        expected = {}
 
         actual = sut.current_state()
 
         case.assertEquals(actual, expected)
+
+    @it.should('raise a TypeError when attempting to register anything else other then a dictionary')
+    def test_should_raise_type_error(case):
+        sut = ModulesRegistry()
+
+        with case.assertRaises(TypeError):
+            sut.register(object())
 
     @it.should('have exactly one registered state when registering only once')
     def test_should_have_one_state(case):
         sut = ModulesRegistry()
         expected = 1
 
-        sut.register([object()])
+        sut.register({'FakeModule': object()})
         actual = len(sut._registry)
 
         case.assertEquals(actual, expected)
@@ -28,7 +35,7 @@ with such.A("Modules Registry") as it:
     @it.should('have the same registered state when registering only once')
     def test_should_have_one_state_when_registering(case):
         sut = ModulesRegistry()
-        expected = [object()]
+        expected = {'FakeModule': object()}
 
         sut.register(expected)
         actual = sut.current_state()
@@ -46,9 +53,9 @@ with such.A("Modules Registry") as it:
     def test_should_unregister(case):
         sut = ModulesRegistry()
 
-        expected = []
+        expected = {}
 
-        sut.register([object()])
+        sut.register({'FakeModule': object()})
         sut.unregister()
 
         actual = sut.current_state()
@@ -61,7 +68,7 @@ with such.A("Modules Registry") as it:
 
         expected = 0
 
-        sut.register([object()])
+        sut.register({'FakeModule': object()})
         sut.unregister()
 
         actual = len(sut._registry)
