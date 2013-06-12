@@ -3,7 +3,7 @@ import sys
 from nose2.tools import such
 
 from tests.unit import UnitTestsLayer
-from testsuite.registry import ModulesRegistry
+from testsuite.registry import ModulesRegistry, NoModulesRegisteredError
 
 
 with such.A("Modules Registry") as it:
@@ -45,12 +45,12 @@ with such.A("Modules Registry") as it:
 
         case.assertEquals(actual, expected)
 
-    @it.should('raise an IndexError when unregistering from an empty modules registry')
+    @it.should('raise a NoModulesRegisteredError when unregistering from an empty modules registry')
     def test_should_raise_index_error_when_unregistering_from_empty_registry(case):
         sut = ModulesRegistry()
 
-        with case.assertRaises(IndexError):
-            sut.unregister_last_state()
+        with case.assertRaises(NoModulesRegisteredError):
+            sut.unregister_last_modules_state()
 
     @it.should('unregister when a state was registered before')
     def test_should_unregister(case):
@@ -59,7 +59,7 @@ with such.A("Modules Registry") as it:
         expected = {}
 
         sut.register_modules({'FakeModule': object()})
-        sut.unregister_last_state()
+        sut.unregister_last_modules_state()
 
         actual = sut.current_modules_state
 
@@ -72,7 +72,7 @@ with such.A("Modules Registry") as it:
         expected = 0
 
         sut.register_modules({'FakeModule': object()})
-        sut.unregister_last_state()
+        sut.unregister_last_modules_state()
 
         actual = len(sut._registry)
 
