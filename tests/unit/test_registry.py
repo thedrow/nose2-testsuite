@@ -1,7 +1,10 @@
-from nose2.tools import such
 import sys
+
+from nose2.tools import such
+
 from tests.unit import UnitTestsLayer
 from testsuite.registry import ModulesRegistry
+
 
 with such.A("Modules Registry") as it:
     it.uses(UnitTestsLayer)
@@ -11,7 +14,7 @@ with such.A("Modules Registry") as it:
         sut = ModulesRegistry()
         expected = {}
 
-        actual = sut.current_state()
+        actual = sut.current_modules_state
 
         case.assertEquals(actual, expected)
 
@@ -20,14 +23,14 @@ with such.A("Modules Registry") as it:
         sut = ModulesRegistry()
 
         with case.assertRaises(TypeError):
-            sut.register(object())
+            sut.register_modules(object())
 
     @it.should('have exactly one registered state when registering only once')
     def test_should_have_one_state(case):
         sut = ModulesRegistry()
         expected = 1
 
-        sut.register({'FakeModule': object()})
+        sut.register_modules({'FakeModule': object()})
         actual = len(sut._registry)
 
         case.assertEquals(actual, expected)
@@ -37,8 +40,8 @@ with such.A("Modules Registry") as it:
         sut = ModulesRegistry()
         expected = {'FakeModule': object()}
 
-        sut.register(expected)
-        actual = sut.current_state()
+        sut.register_modules(expected)
+        actual = sut.current_modules_state
 
         case.assertEquals(actual, expected)
 
@@ -47,7 +50,7 @@ with such.A("Modules Registry") as it:
         sut = ModulesRegistry()
 
         with case.assertRaises(IndexError):
-            sut.unregister()
+            sut.unregister_last_state()
 
     @it.should('unregister when a state was registered before')
     def test_should_unregister(case):
@@ -55,10 +58,10 @@ with such.A("Modules Registry") as it:
 
         expected = {}
 
-        sut.register({'FakeModule': object()})
-        sut.unregister()
+        sut.register_modules({'FakeModule': object()})
+        sut.unregister_last_state()
 
-        actual = sut.current_state()
+        actual = sut.current_modules_state
 
         case.assertEquals(expected, actual)
 
@@ -68,8 +71,8 @@ with such.A("Modules Registry") as it:
 
         expected = 0
 
-        sut.register({'FakeModule': object()})
-        sut.unregister()
+        sut.register_modules({'FakeModule': object()})
+        sut.unregister_last_state()
 
         actual = len(sut._registry)
 
@@ -81,9 +84,9 @@ with such.A("Modules Registry") as it:
 
         expected = sys.modules
 
-        sut.register_modules()
+        sut.register_current_modules_state()
 
-        actual = sut.current_state()
+        actual = sut.current_modules_state
 
         case.assertEquals(actual, expected)
 

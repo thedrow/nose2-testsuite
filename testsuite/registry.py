@@ -5,20 +5,21 @@ class ModulesRegistry(object):
     def __init__(self):
         self._registry = []
 
-    def current_state(self):
+    @property
+    def current_modules_state(self):
         try:
             return self._registry[-1]
         except IndexError:
             return {}
 
-    def register(self, state):
+    def register_modules(self, state):
         if not isinstance(state, dict):
             raise TypeError('Expected dictionary. Got %s instead.' % type(state))
 
         self._registry.append(state)
 
-    def unregister(self):
+    def unregister_last_state(self):
         self._registry.pop()
 
-    def register_modules(self):
-        self.register(sys.modules)
+    def register_current_modules_state(self):
+        self.register_modules(sys.modules)
