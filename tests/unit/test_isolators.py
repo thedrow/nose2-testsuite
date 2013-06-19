@@ -21,6 +21,31 @@ with such.A('Integration Test Module Isolation Level Calculation') as it:
         with case.assertRaises(NoModulesRegisteredError):
             sut.calculate_isolation_level({})
 
+    @it.should('raise a TypeError when current state is not a dictionary')
+    def test_should_raise_type_error_when_current_state_is_not_a_dictionary(case):
+        sut = IntegrationTestModuleIsolationLevelCalculator()
+
+        with case.assertRaises(TypeError):
+            sut.calculate_isolation_level(object())
+
+    @it.should('have 100% isolation level when a module that was replaced with a test double was excluded')
+    def test_should_have_100_percent_isolation_when_fake_module_was_excluded(case):
+        sut = IntegrationTestModuleIsolationLevelCalculator()
+        expected = 100
+
+        actual = sut.calculate_isolation_level({'SomeModule': object(), 'FakeModule': TestDouble()}, ['FakeModule'])
+
+        case.assertEquals(actual, expected)
+
+    @it.should('have 100% isolation level when all modules were excluded')
+    def test_should_have_100_percent_isolation_when_fake_module_was_excluded(case):
+        sut = IntegrationTestModuleIsolationLevelCalculator()
+        expected = 100
+
+        actual = sut.calculate_isolation_level({'SomeModule': object(), 'FakeModule': TestDouble()}, ['SomeModule', 'FakeModule'])
+
+        case.assertEquals(actual, expected)
+
     for current_modules_state in itertools.chain.from_iterable(samples):
         random.seed()
         current_modules_state = dict(current_modules_state)
