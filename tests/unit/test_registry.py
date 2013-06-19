@@ -2,7 +2,7 @@ import sys
 
 from nose2.tools import such
 
-from tests.unit import UnitTestsLayer
+from tests.common.layers import UnitTestsLayer
 from testsuite.registry import ModulesRegistry, NoModulesRegisteredError
 
 
