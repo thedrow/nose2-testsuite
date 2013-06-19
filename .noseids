@@ -2,62 +2,207 @@
 S'tests'
 p1
 (dp2
-S'tests.unit.test_registry.A Modules Registry.test 0006: should have exactly zero registered states when unregistering only once'
+S'tests.functional.test_isolators.having The following current modules state: {c05b550111581719f6e90798b01e7b: <object object at 0x7f1ff1eb8100>}.test 0000: should have the following isolation level 100.00'
 p3
-I10
-sS'tests.unit.test_registry.A Modules Registry.test 0001: should raise a TypeError when attempting to register anything else other then a dictionary'
+I12
+sS'tests.functional.test_isolators.having The following current modules state: {a605b0d4f618e0d47b3d5f9e99e9cf: <object object at 0x7f1ff1eb8120>}.test 0000: should have the following isolation level 100.00'
 p4
-I5
-sS'tests.unit.test_registry.A Modules Registry.test 0005: should unregister when a state was registered before'
+I14
+sS'tests.functional.test_isolators.having The following current modules state: {f2a938a26f1bb5c26402d53bbb7ddc: <testsuite.testdoubles.TestDouble object at 0x2632910>}.test 0000: should have the following isolation level  0.00'
 p5
-I9
-sS'tests.unit.test_registry.A Modules Registry.test 0002: should have exactly one registered state when registering only once'
+I5
+sS'tests.unit.test_isolators.having The following current modules state: {85061292f8172884f9a2fe709e852f: <testsuite.testdoubles.TestDouble object at 0x2693dd0>}.test 0000: should call round with  0.00'
 p6
-I6
-sS"tests.unit.test_layers.A Integration Tests Layer.test 0000: should have 'Integration Tests Layer:' as the description"
+I27
+sS'tests.unit.test_isolators.having The following current modules state: {7518f2c0ccf49781f4e504c159e778: <object object at 0x7f1ff1eb80f0>}.test 0000: should call round with 100.00'
 p7
-I2
-sS'tests.unit.test_registry.A Modules Registry.test 0004: should raise an IndexError when unregistering from an empty modules registry'
+I25
+sS'tests.unit.test_isolators.having The following current modules state: {eeb63e8490ff1cc043895de92374eb: <testsuite.testdoubles.TestDouble object at 0x2693b50>}.test 0000: should call round with  0.00'
 p8
-I8
-sS"tests.unit.test_layers.A Functional Tests Layer.test 0000: should have 'Functional Tests Layer:' as the description"
+I16
+sS'tests.unit.test_isolators.having The following current modules state: {dda2e48cdf5ef64e425bb8b13fefff: <object object at 0x7f1ff1eb80f0>}.test 0000: should call round with 100.00'
 p9
-I3
-sS'tests.unit.test_registry.A Modules Registry.test 0003: should have the same registered state when registering only once'
+I17
+sS"tests.unit.test_layers.A Integration Tests Layer.test 0000: should have 'Integration Tests Layer:' as the description"
 p10
-I7
-sS"tests.unit.test_layers.A Unit Tests Layer.test 0000: should have 'Unit Tests Layer:' as the description"
+I31
+sS'tests.functional.test_isolators.having The following current modules state: {185b3c7ad5a2198ca84a8dbc3ba4c9: <testsuite.testdoubles.TestDouble object at 0x2632a50>}.test 0000: should have the following isolation level  0.00'
 p11
-I1
-sS'tests.unit.test_registry.A Modules Registry.test 0000: should have nothing registered when initialized'
+I7
+sS'tests.unit.test_isolators.having The following current modules state: {f091d161700db4203a3da9b1b73aa4: <testsuite.testdoubles.TestDouble object at 0x26a3250>}.test 0000: should call round with  0.00'
 p12
-I4
-sS'tests.unit.test_registry.A Modules Registry.test 0007: should register the current state of the system modules'
+I29
+sS'tests.unit.test_isolators.having The following current modules state: {8235b2fb51011b53694d241fc00baf: <testsuite.testdoubles.TestDouble object at 0x2693d90>}.test 0000: should call round with  0.00'
 p13
-I11
-ssS'ids'
+I19
+sS'tests.unit.test_isolators.having The following current modules state: {d939fb9e2f95344c876b39e668354a: <testsuite.testdoubles.TestDouble object at 0x2693d90>}.test 0000: should call round with  0.00'
 p14
-(dp15
+I22
+sS'tests.functional.test_isolators.having The following current modules state: {27e6b422947d810dd04794970a31d1: <testsuite.testdoubles.TestDouble object at 0x2632b10>}.test 0000: should have the following isolation level  0.00'
+p15
+I9
+sS'tests.functional.test_isolators.having The following current modules state: {91be1cf4fe40df41a6af8dc85a164e: <testsuite.testdoubles.TestDouble object at 0x2632890>}.test 0000: should have the following isolation level  0.00'
+p16
+I4
+sS'tests.unit.test_isolators.having The following current modules state: {36c4e27fe4e93ef71ad1b0ce8d42a7: <testsuite.testdoubles.TestDouble object at 0x26a31d0>}.test 0000: should call round with  0.00'
+p17
+I28
+sS'tests.functional.test_isolators.having The following current modules state: {d1b05676fd75f637ae743182cfc149: <testsuite.testdoubles.TestDouble object at 0x26326d0>}.test 0000: should have the following isolation level  0.00'
+p18
 I1
-g11
+sS"tests.unit.test_layers.A Unit Tests Layer.test 0000: should have 'Unit Tests Layer:' as the description"
+p19
+I30
+sS'tests.unit.test_registry.A Modules Registry.test 0007: should register the current state of the system modules'
+p20
+I40
+sS'tests.functional.test_isolators.having The following current modules state: {17261a65409de0f8d915f7be600e12: <object object at 0x7f1ff1eb80f0>}.test 0000: should have the following isolation level 100.00'
+p21
+I8
+sS'tests.functional.test_isolators.having The following current modules state: {ef359c2af012df272df5b89fa0ea89: <testsuite.testdoubles.TestDouble object at 0x2632750>}.test 0000: should have the following isolation level  0.00'
+p22
+I2
+sS'tests.unit.test_isolators.having The following current modules state: {e7cdd76255370141c389562f807ae0: <testsuite.testdoubles.TestDouble object at 0x2693c10>}.test 0000: should call round with  0.00'
+p23
+I18
+sS'tests.unit.test_registry.A Modules Registry.test 0002: should have exactly one registered state when registering only once'
+p24
+I35
+sS'tests.functional.test_isolators.having The following current modules state: {9cf57cff4ccedffb2f6f94125dd987: <testsuite.testdoubles.TestDouble object at 0x2632890>}.test 0000: should have the following isolation level  0.00'
+p25
+I6
+sS'tests.unit.test_registry.A Modules Registry.test 0004: should raise a NoModulesRegisteredError when unregistering from an empty modules registry'
+p26
+I37
+sS'tests.unit.test_isolators.having The following current modules state: {25f3aa904dc603be5d3610bfaa8d69: <object object at 0x7f1ff1eb80f0>}.test 0000: should call round with 100.00'
+p27
+I21
+sS"tests.unit.test_layers.A Functional Tests Layer.test 0000: should have 'Functional Tests Layer:' as the description"
+p28
+I32
+sS'tests.unit.test_isolators.having The following current modules state: {ba6b802933c3d716960436b21cfed0: <object object at 0x7f1ff1eb8100>}.test 0000: should call round with 100.00'
+p29
+I20
+sS'tests.functional.test_isolators.having The following current modules state: {b8de8f94dfecb5875b1b7dca0c00a9: <object object at 0x7f1ff1eb80f0>}.test 0000: should have the following isolation level 100.00'
+p30
+I3
+sS'tests.unit.test_registry.A Modules Registry.test 0001: should raise a TypeError when attempting to register anything else other then a dictionary'
+p31
+I34
+sS'tests.functional.test_isolators.having The following current modules state: {47f09dd67c95be2327a3fd2d8842d3: <object object at 0x7f1ff1eb80f0>}.test 0000: should have the following isolation level 100.00'
+p32
+I10
+sS'tests.unit.test_isolators.having The following current modules state: {5bd8814184c5f0b8eb34fddeda626b: <object object at 0x7f1ff1eb8130>}.test 0000: should call round with 100.00'
+p33
+I24
+sS'tests.unit.test_registry.A Modules Registry.test 0005: should unregister when a state was registered before'
+p34
+I38
+sS'tests.unit.test_isolators.having The following current modules state: {6b8a6dd278798af165d38a342e239c: <object object at 0x7f1ff1eb8110>}.test 0000: should call round with 100.00'
+p35
+I26
+sS'tests.unit.test_registry.A Modules Registry.test 0006: should have exactly zero registered states when unregistering only once'
+p36
+I39
+sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0000: should raise a NoModulesRegisteredError when fetching isolation level and no modules are registered'
+p37
+I15
+sS'tests.functional.test_isolators.having The following current modules state: {1070ca81d57d6f2e7d5c7b1daf5f53: <testsuite.testdoubles.TestDouble object at 0x2632a50>}.test 0000: should have the following isolation level  0.00'
+p38
+I11
+sS'tests.functional.test_isolators.having The following current modules state: {00306e2e9041bec9e5a43395616581: <object object at 0x7f1ff1eb8110>}.test 0000: should have the following isolation level 100.00'
+p39
+I13
+sS'tests.unit.test_registry.A Modules Registry.test 0000: should have nothing registered when initialized'
+p40
+I33
+sS'tests.unit.test_isolators.having The following current modules state: {538d60dec2773e018dea874199bd73: <object object at 0x7f1ff1eb8110>}.test 0000: should call round with 100.00'
+p41
+I23
+sS'tests.unit.test_registry.A Modules Registry.test 0003: should have the same registered state when registering only once'
+p42
+I36
+ssS'ids'
+p43
+(dp44
+I1
+g18
 sI2
-g7
+g22
 sI3
-g9
+g30
 sI4
-g12
+g16
 sI5
-g4
-sI6
-g6
-sI7
-g10
-sI8
-g8
-sI9
 g5
+sI6
+g25
+sI7
+g11
+sI8
+g21
+sI9
+g15
 sI10
-g3
+g32
 sI11
+g38
+sI12
+g3
+sI13
+g39
+sI14
+g4
+sI15
+g37
+sI16
+g8
+sI17
+g9
+sI18
+g23
+sI19
 g13
+sI20
+g29
+sI21
+g27
+sI22
+g14
+sI23
+g41
+sI24
+g33
+sI25
+g7
+sI26
+g35
+sI27
+g6
+sI28
+g17
+sI29
+g12
+sI30
+g19
+sI31
+g10
+sI32
+g28
+sI33
+g40
+sI34
+g31
+sI35
+g24
+sI36
+g42
+sI37
+g26
+sI38
+g34
+sI39
+g36
+sI40
+g20
 ss.

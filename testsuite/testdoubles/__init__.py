@@ -1,0 +1,2 @@
+class TestDouble(object):
+    pass
