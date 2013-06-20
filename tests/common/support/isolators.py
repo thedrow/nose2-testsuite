@@ -1,11 +1,12 @@
 import binascii
 import logging
 import os
+import pickle
 from random import choice
 import itertools
 
 from mock import Mock
-from tests.common import is_executing_under_continuous_integration_server
+from tests.common import is_executing_under_continuous_integration_server, get_support_path
 
 from testsuite.testdoubles import TestDouble
 
@@ -41,4 +42,19 @@ class SamplesIterator(object):
 
 
 def load_samples():
-    return itertools.chain.from_iterable(SamplesIterator())
+    if is_executing_under_continuous_integration_server() and os.getenv('USE_CACHES_SAMPLES', 'false') != 'true':
+        list(itertools.chain.from_iterable(SamplesIterator()))
+
+    samples_file = '%s%s' % (get_support_path(), 'modules_state.samples')
+
+    if os.path.exists(samples_file) and os.path.getsize(samples_file) == 0 or not os.path.exists(samples_file):
+        with open(samples_file, 'a+') as f:
+            samples = list(itertools.chain.from_iterable(SamplesIterator()))
+
+            try:
+                return samples
+            finally:
+                pickle.dump(samples, f, pickle.HIGHEST_PROTOCOL)
+    else:
+        with open(samples_file, 'r') as f:
+            return pickle.load(f)
