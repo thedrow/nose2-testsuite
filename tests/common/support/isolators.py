@@ -28,7 +28,7 @@ class FakeModule(object):
 
 
 class SamplesIterator(object):
-    MAX_SAMPLE_LENGTH = os.getenv('MAX_SAMPLE_LENGTH', 36) if is_executing_under_continuous_integration_server() else 6
+    MAX_SAMPLE_LENGTH = os.getenv('MAX_SAMPLE_LENGTH', 12) if is_executing_under_continuous_integration_server() else 6
 
     def __iter__(self):
         for sample_length in range(1, SamplesIterator.MAX_SAMPLE_LENGTH):

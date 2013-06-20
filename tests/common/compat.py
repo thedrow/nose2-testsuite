@@ -4,6 +4,7 @@ except ImportError:
     import mock
 
 try:
+    import itertools
     from itertools import combinations_with_replacement
 except ImportError:
     import itertools
