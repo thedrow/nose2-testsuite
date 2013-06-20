@@ -9,6 +9,11 @@ nose2-testsuite
 nose2-testsuite is a highly opinionated nose2 plugin that aims to assist you to write a better test suite for your
 Python projects.
 
+Warning
+=======
+This project is under ongoing development and is considered highly unstable.
+You are welcome to try it out but do not use it for production.
+
 Popularity
 ==========
 
