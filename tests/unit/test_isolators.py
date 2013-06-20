@@ -1,11 +1,10 @@
 import random
 import sys
-import itertools
 
 from nose2.tools import such
 
 from tests.common.layers import UnitTestsLayer
-from tests.unit.support.isolators import BuiltinsWithFakeRound, samples
+from tests.common.support.isolators import BuiltinsWithFakeRound, load_samples
 from testsuite.isolation import IntegrationTestModuleIsolationLevelCalculator
 from testsuite.registry import NoModulesRegisteredError
 from testsuite.testdoubles import TestDouble
@@ -46,7 +45,7 @@ with such.A('Integration Test Module Isolation Level Calculation') as it:
 
         case.assertEquals(actual, expected)
 
-    for current_modules_state in itertools.chain.from_iterable(samples):
+    for current_modules_state in load_samples():
         random.seed()
         current_modules_state = dict(current_modules_state)
         total_count = float(len([module for module in current_modules_state.values() if module]))

@@ -1,2 +1,0 @@
-class UnitTestsLayer(object):
-    pass

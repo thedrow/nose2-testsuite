@@ -29,10 +29,10 @@ class FakeModule(object):
 
 
 class SamplesIterator(object):
-    def __iter__(self):
-        MAX_SAMPLE_LENGTH = 256 if is_executing_under_continuous_integration_server() else 6
+    MAX_SAMPLE_LENGTH = os.getenv('MAX_SAMPLE_LENGTH', 36) if is_executing_under_continuous_integration_server() else 6
 
-        for sample_length in range(1, MAX_SAMPLE_LENGTH):
+    def __iter__(self):
+        for sample_length in range(1, SamplesIterator.MAX_SAMPLE_LENGTH):
             combinations = [(FakeModuleNameGenerator(), FakeModule()) for i in range(0, sample_length)]
 
             for r in range(1, sample_length + 1):
@@ -40,4 +40,5 @@ class SamplesIterator(object):
                 yield itertools.combinations_with_replacement(combinations, r)
 
 
-samples = SamplesIterator()
+def load_samples():
+    return itertools.chain.from_iterable(SamplesIterator())
