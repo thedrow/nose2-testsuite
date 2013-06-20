@@ -3,9 +3,7 @@ import logging
 import os
 import pickle
 from random import choice
-import itertools
-
-from mock import Mock
+from tests.common.compat import *
 from tests.common import is_executing_under_continuous_integration_server, get_support_path
 
 from testsuite.testdoubles import TestDouble
@@ -16,7 +14,7 @@ logger = logging.getLogger(__name__)
 class BuiltinsWithFakeRound(object):
     def __init__(self):
         self.__dict__ = __builtins__
-        self.round = Mock()
+        self.round = mock.Mock()
 
 
 class FakeModuleNameGenerator(object):
