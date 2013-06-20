@@ -5,8 +5,8 @@ python:
   - "3.3"
   - "pypy"
 env:
-  - USE_CACHES_SAMPLES=True
-  - USE_CACHES_SAMPLES=False
+  - USE_CACHES_SAMPLES=true
+  - USE_CACHES_SAMPLES=false
 install:
   - pip install -r ./requirements/development.txt --use-mirrors
 script:
