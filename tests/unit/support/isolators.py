@@ -1,4 +1,5 @@
 import binascii
+import logging
 import os
 from random import choice
 import itertools
@@ -7,6 +8,8 @@ from mock import Mock
 from tests.common import is_executing_under_continuous_integration_server
 
 from testsuite.testdoubles import TestDouble
+
+logger = logging.getLogger(__name__)
 
 
 class BuiltinsWithFakeRound(object):
@@ -32,7 +35,9 @@ class SamplesIterator(object):
         for sample_length in range(1, MAX_SAMPLE_LENGTH):
             combinations = [(FakeModuleNameGenerator(), FakeModule()) for i in range(0, sample_length)]
 
-            for r in range(1, sample_length):
+            for r in range(1, sample_length + 1):
+                logger.info("Generating sample in length %d with r=%d" % (sample_length, r))
                 yield itertools.combinations_with_replacement(combinations, r)
+
 
 samples = SamplesIterator()
