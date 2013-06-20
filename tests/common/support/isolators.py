@@ -3,6 +3,7 @@ import logging
 import os
 import pickle
 from random import choice
+import sys
 from tests.common.compat import *
 from tests.common import is_executing_under_continuous_integration_server, get_support_path
 
@@ -13,16 +14,18 @@ logger = logging.getLogger(__name__)
 
 class BuiltinsWithFakeRound(object):
     def __init__(self):
-        self.__dict__ = __builtins__
+        self.__dict__ = __builtins__.__dict__ if hasattr(__builtins__, '__dict__') else __builtins__
         self.round = mock.Mock()
 
 
-class FakeModuleNameGenerator(object):
-    def __repr__(self):
+class FakeModuleNameGenerator(str):
+    @classmethod
+    def __new__(cls, *args, **kwargs):
         return str(binascii.b2a_hex(os.urandom(15)))
 
 
 class FakeModule(object):
+    @classmethod
     def __new__(cls, *args, **kwargs):
         return choice([object(), TestDouble()])
 
@@ -39,14 +42,23 @@ class SamplesIterator(object):
                 yield itertools.combinations_with_replacement(combinations, r)
 
 
+def get_sample_file_name():
+    import platform
+
+    version = '%s.%s' % (
+        sys.version_info[0], sys.version_info[1]) if platform.python_implementation() != 'PyPy' else 'pypy'
+    samples_file = '%s%s' % (get_support_path(), 'modules_state.samples-%s' % version)
+    return samples_file
+
+
 def load_samples():
     if is_executing_under_continuous_integration_server() and os.getenv('USE_CACHES_SAMPLES', 'false') != 'true':
         list(itertools.chain.from_iterable(SamplesIterator()))
 
-    samples_file = '%s%s' % (get_support_path(), 'modules_state.samples')
+    samples_file = get_sample_file_name()
 
     if os.path.exists(samples_file) and os.path.getsize(samples_file) == 0 or not os.path.exists(samples_file):
-        with open(samples_file, 'a+') as f:
+        with open(samples_file, 'wb') as f:
             samples = list(itertools.chain.from_iterable(SamplesIterator()))
 
             try:
@@ -54,5 +66,5 @@ def load_samples():
             finally:
                 pickle.dump(samples, f, pickle.HIGHEST_PROTOCOL)
     else:
-        with open(samples_file, 'r') as f:
+        with open(samples_file, 'rb') as f:
             return pickle.load(f)

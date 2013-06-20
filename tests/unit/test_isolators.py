@@ -55,7 +55,7 @@ with such.A('Integration Test Module Isolation Level Calculation') as it:
         expected = (total_live / total_count) * 100.0
 
         with it.having("The following current modules state: %s" % str(current_modules_state)):
-            @it.should('call round with {:5.2f}'.format(expected))
+            @it.should('call round with %s' % round(expected, 2))
             def test_should_call_round():
                 _old_builtins = __builtins__
                 sys.modules['__builtins__'] = BuiltinsWithFakeRound()

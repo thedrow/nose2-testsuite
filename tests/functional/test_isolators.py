@@ -21,7 +21,7 @@ with such.A('Integration Test Module Isolation Level Calculation') as it:
         expected = (total_live / total_count) * 100.0
 
         with it.having("The following current modules state: %s" % str(current_modules_state)):
-            @it.should('have the following isolation level {:5.2f}'.format(expected))
+            @it.should('have the isolation level of %s%%' % round(expected, 2))
             def test_should_have_correct_isolation_level(case):
                 sut = IntegrationTestModuleIsolationLevelCalculator()
 
