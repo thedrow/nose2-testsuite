@@ -4,13 +4,10 @@ import os
 import pickle
 from random import choice
 import sys
+
 from tests.common.compat import *
 from tests.common import is_executing_under_continuous_integration_server, get_support_path
-
 from testsuite.testdoubles import TestDouble
-
-logger = logging.getLogger(__name__)
-
 
 class BuiltinsWithFakeRound(object):
     def __init__(self):
@@ -39,7 +36,6 @@ class SamplesIterator(object):
             combinations = [(FakeModuleNameGenerator(), FakeModule()) for i in range(0, sample_length)]
 
             for r in range(1, sample_length + 1):
-                logger.info("Generating sample in length %d with r=%d" % (sample_length, r))
                 yield itertools.combinations_with_replacement(combinations, r)
 
 
