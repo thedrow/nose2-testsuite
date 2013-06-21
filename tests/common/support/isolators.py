@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 class BuiltinsWithFakeRound(object):
     def __init__(self):
         self.__dict__ = __builtins__.__dict__ if hasattr(__builtins__, '__dict__') else __builtins__
+        self._old_round = self.round
         self.round = mock.Mock()
 
 

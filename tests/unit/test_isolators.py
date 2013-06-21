@@ -57,7 +57,6 @@ with such.A('Integration Test Module Isolation Level Calculation') as it:
         with it.having("The following current modules state: %s" % str(current_modules_state)):
             @it.should('call round with %s' % round(expected, 2))
             def test_should_call_round():
-                _old_builtins = __builtins__
                 sys.modules['__builtins__'] = BuiltinsWithFakeRound()
 
                 sut = IntegrationTestModuleIsolationLevelCalculator()
@@ -67,6 +66,6 @@ with such.A('Integration Test Module Isolation Level Calculation') as it:
                 try:
                     round.assert_called_once_with(expected, 2)
                 finally:
-                    sys.modules['__builtins__'] = _old_builtins
+                    sys.modules['__builtins__'].round = sys.modules['__builtins__']._old_round
 
     it.createTests(globals())
