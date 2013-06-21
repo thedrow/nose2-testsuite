@@ -7,9 +7,14 @@ python:
 env:
   - USE_CACHES_SAMPLES=true
   - USE_CACHES_SAMPLES=false
+matrix:
+  exclude:
+    - python: 2.6
+      env: USE_CACHES_SAMPLES=false
 install:
   - pip install -r ./requirements/development.txt --use-mirrors
 script:
   - nose2 --verbose --log-capture --with-cov
+  - coverage combine
 after_success:
   - coveralls

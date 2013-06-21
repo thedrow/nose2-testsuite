@@ -2,652 +2,652 @@
 S'tests'
 p1
 (dp2
-S"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, '1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 33.33"
+S"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
 p3
-I83
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
+I93
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, 'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>}.test 0000: should have the isolation level of 100.0%"
 p4
-I45
-sS"tests.functional.test_isolators.having The following current modules state: {'2e59b256b05ff8fcb41afc999a8fc6': <object object at 0x7f8332ceb110>}.test 0000: should have the isolation level of 100.0%"
+I13
+sS"tests.functional.test_isolators.having The following current modules state: {'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>}.test 0000: should have the isolation level of 100.0%"
 p5
-I9
-sS"tests.functional.test_isolators.having The following current modules state: {'2e59b256b05ff8fcb41afc999a8fc6': <object object at 0x7f8332ceb110>, 'b3ccde8b347db6f28594b0d9fb6d86': <object object at 0x7f8332ceb100>, '8fffd43a10058f7ca1738f015ec973': <object object at 0x7f8332ceb120>}.test 0000: should have the isolation level of 100.0%"
+I43
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>}.test 0000: should have the isolation level of 100.0%"
 p6
-I7
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, '1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>}.test 0000: should call round with 50.0"
-p7
-I84
-sS"tests.unit.test_isolators.having The following current modules state: {'1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>, '26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 33.33"
-p8
-I79
-sS"tests.unit.test_isolators.having The following current modules state: {'0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p9
-I106
-sS"tests.unit.test_isolators.having The following current modules state: {'1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>, '26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>}.test 0000: should call round with 50.0"
-p10
-I80
-sS'tests.unit.test_registry.A Modules Registry.test 0003: should have the same registered state when registering only once'
-p11
-I125
-sS"tests.functional.test_isolators.having The following current modules state: {'8fffd43a10058f7ca1738f015ec973': <object object at 0x7f8332ceb120>}.test 0000: should have the isolation level of 100.0%"
-p12
-I11
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
-p13
-I52
-sS"tests.unit.test_isolators.having The following current modules state: {'86570c3719ac9ac5046f5977708ad5': <object object at 0x7f8332ceb110>, 'dcd0dd7c70990a64c7d6d5c56c71c7': <testsuite.testdoubles.TestDouble object at 0x28fcbd0>, '49d8031832379f9b7c548cdf9e8d73': <testsuite.testdoubles.TestDouble object at 0x28fcb90>}.test 0000: should call round with 33.33"
-p14
-I68
-sS"tests.functional.test_isolators.having The following current modules state: {'6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>}.test 0000: should have the isolation level of 100.0%"
-p15
 I27
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p16
-I48
-sS"tests.unit.test_isolators.having The following current modules state: {'26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>}.test 0000: should call round with 100.0"
-p17
-I73
-sS"tests.unit.test_layers.A Unit Tests Layer.test 0000: should have 'Unit Tests Layer:' as the description"
-p18
-I119
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p19
-I95
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, '26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>}.test 0000: should call round with 100.0"
-p20
-I74
-sS'tests.unit.test_registry.A Modules Registry.test 0004: should raise a NoModulesRegisteredError when unregistering from an empty modules registry'
-p21
-I126
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p22
-I110
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p23
-I108
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>}.test 0000: should call round with 100.0"
-p24
-I81
-sS'tests.unit.test_registry.A Modules Registry.test 0006: should have exactly zero registered states when unregistering only once'
-p25
-I128
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p26
-I49
-sS"tests.unit.test_isolators.having The following current modules state: {'1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 0.0"
-p27
-I86
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>}.test 0000: should have the isolation level of 0.0%"
-p28
-I26
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>}.test 0000: should call round with 100.0"
-p29
-I111
-sS"tests.functional.test_isolators.having The following current modules state: {'24472886881eda3cc31021cad8e4c0': <testsuite.testdoubles.TestDouble object at 0x26cee50>, '69d23809cdd1d38a101be0fea3fde8': <object object at 0x7f8332ceb0f0>}.test 0000: should have the isolation level of 50.0%"
-p30
-I3
-sS"tests.functional.test_isolators.having The following current modules state: {'2e59b256b05ff8fcb41afc999a8fc6': <object object at 0x7f8332ceb110>, '8fffd43a10058f7ca1738f015ec973': <object object at 0x7f8332ceb120>}.test 0000: should have the isolation level of 100.0%"
-p31
-I10
-sS"tests.unit.test_isolators.having The following current modules state: {'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p32
-I116
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p33
-I46
-sS"tests.functional.test_isolators.having The following current modules state: {'5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>}.test 0000: should have the isolation level of 100.0%"
-p34
-I20
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, '1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>, '26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>}.test 0000: should call round with 66.67"
-p35
-I77
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p36
-I94
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p37
+sS'tests.unit.test_registry.A Modules Registry.test 0003: should have the same registered state when registering only once'
+p7
+I125
+sS"tests.unit.test_isolators.having The following current modules state: {'7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>}.test 0000: should call round with 0.0"
+p8
+I87
+sS"tests.functional.test_isolators.having The following current modules state: {'2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>}.test 0000: should have the isolation level of 100.0%"
+p9
+I51
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p10
 I35
 sS"tests.unit.test_layers.A Integration Tests Layer.test 0000: should have 'Integration Tests Layer:' as the description"
-p38
+p11
 I120
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>}.test 0000: should have the isolation level of 100.0%"
-p39
-I41
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>}.test 0000: should have the isolation level of 100.0%"
-p40
-I56
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p41
-I98
-sS"tests.functional.test_isolators.having The following current modules state: {'24472886881eda3cc31021cad8e4c0': <testsuite.testdoubles.TestDouble object at 0x26cee50>}.test 0000: should have the isolation level of 0.0%"
-p42
-I2
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p43
-I50
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>}.test 0000: should call round with 100.0"
-p44
-I118
-sS'tests.unit.test_registry.A Modules Registry.test 0002: should have exactly one registered state when registering only once'
-p45
-I124
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>, 'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>}.test 0000: should have the isolation level of 50.0%"
-p46
-I25
-sS"tests.functional.test_isolators.having The following current modules state: {'b3ccde8b347db6f28594b0d9fb6d86': <object object at 0x7f8332ceb100>}.test 0000: should have the isolation level of 100.0%"
-p47
-I5
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 50.0%"
-p48
-I19
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p49
-I114
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>}.test 0000: should call round with 100.0"
-p50
-I103
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>}.test 0000: should have the isolation level of 100.0%"
-p51
-I40
-sS"tests.unit.test_isolators.having The following current modules state: {'1fd268e0b3bae4d51fc55f65cc54a0': <testsuite.testdoubles.TestDouble object at 0x28fcad0>, '51292ee291f1cac472e74547b2ac3c': <object object at 0x7f8332ceb100>}.test 0000: should call round with 50.0"
-p52
-I64
-sS"tests.unit.test_isolators.having The following current modules state: {'86570c3719ac9ac5046f5977708ad5': <object object at 0x7f8332ceb110>}.test 0000: should call round with 100.0"
-p53
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>}.test 0000: should call round with 100.0"
+p12
+I109
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p13
+I42
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>}.test 0000: should have the isolation level of 100.0%"
+p14
+I29
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>}.test 0000: should have the isolation level of 100.0%"
+p15
+I17
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p16
+I95
+sS"tests.unit.test_isolators.having The following current modules state: {'1705526b3a41daabb4754671563f18': <testsuite.testdoubles.TestDouble object at 0x2622fd0>, '88d8c5344d568c24f11db3ee5c11d5': <object object at 0x7f04ca8e2110>, 'cf74e8f45cd6562a0b5086f8223fd4': <testsuite.testdoubles.TestDouble object at 0x2626050>}.test 0000: should call round with 33.33"
+p17
+I68
+sS"tests.unit.test_isolators.having The following current modules state: {'88d8c5344d568c24f11db3ee5c11d5': <object object at 0x7f04ca8e2110>}.test 0000: should call round with 100.0"
+p18
 I70
-sS"tests.unit.test_isolators.having The following current modules state: {'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p19
+I106
+sS"tests.functional.test_isolators.having The following current modules state: {'2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>}.test 0000: should have the isolation level of 100.0%"
+p20
+I44
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>}.test 0000: should call round with 100.0"
+p21
+I117
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, '7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>}.test 0000: should call round with 50.0"
+p22
+I84
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, '4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>}.test 0000: should have the isolation level of 50.0%"
+p23
+I19
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p24
+I96
+sS"tests.functional.test_isolators.having The following current modules state: {'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>}.test 0000: should have the isolation level of 100.0%"
+p25
+I20
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, '7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 66.67"
+p26
+I77
+sS"tests.functional.test_isolators.having The following current modules state: {'73e277656ccfbd9e2912da70e8b24b': <object object at 0x7f04ca8e2110>}.test 0000: should have the isolation level of 100.0%"
+p27
+I9
+sS'tests.unit.test_registry.A Modules Registry.test 0001: should raise a TypeError when attempting to register anything else other then a dictionary'
+p28
+I123
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>}.test 0000: should have the isolation level of 100.0%"
+p29
+I48
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, 'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>}.test 0000: should call round with 50.0"
+p30
+I82
+sS"tests.functional.test_isolators.having The following current modules state: {'4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>}.test 0000: should have the isolation level of 50.0%"
+p31
+I25
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>}.test 0000: should have the isolation level of 100.0%"
+p32
+I52
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, '4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>, 'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>}.test 0000: should have the isolation level of 66.67%"
+p33
+I16
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p34
+I56
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p35
+I89
+sS'tests.unit.test_registry.A Modules Registry.test 0006: should have exactly zero registered states when unregistering only once'
+p36
+I128
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p37
+I49
+sS"tests.unit.test_isolators.having The following current modules state: {'3ebb19933503af048d61e04d072434': <testsuite.testdoubles.TestDouble object at 0x2622f90>}.test 0000: should call round with 0.0"
+p38
+I62
+sS"tests.functional.test_isolators.having The following current modules state: {'19201c56e5e6ee4deee6517ffa69fb': <testsuite.testdoubles.TestDouble object at 0x23edf50>}.test 0000: should have the isolation level of 0.0%"
+p39
+I1
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, '4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>, 'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>}.test 0000: should have the isolation level of 75.0%"
+p40
+I15
+sS"tests.unit.test_isolators.having The following current modules state: {'212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p41
+I115
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>}.test 0000: should call round with 100.0"
+p42
+I110
+sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0001: should raise a TypeError when current state is not a dictionary'
+p43
+I59
+sS"tests.functional.test_isolators.having The following current modules state: {'4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>}.test 0000: should have the isolation level of 0.0%"
+p44
+I26
+sS"tests.unit.test_isolators.having The following current modules state: {'5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 100.0"
+p45
+I73
+sS"tests.functional.test_isolators.having The following current modules state: {'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p46
+I50
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, '7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>, 'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>}.test 0000: should call round with 33.33"
+p47
+I83
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p48
+I37
+sS"tests.functional.test_isolators.having The following current modules state: {'89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>}.test 0000: should have the isolation level of 100.0%"
+p49
+I24
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p50
+I55
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>}.test 0000: should call round with 100.0"
+p51
+I116
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p52
+I102
+sS'tests.unit.test_registry.A Modules Registry.test 0002: should have exactly one registered state when registering only once'
+p53
+I124
+sS"tests.functional.test_isolators.having The following current modules state: {'e04e49d10cb75408309ef2ae408e49': <object object at 0x7f04ca8e2120>, '73e277656ccfbd9e2912da70e8b24b': <object object at 0x7f04ca8e2110>, '7fe3ec63b9cad70f863fefa847e8a5': <object object at 0x7f04ca8e2100>}.test 0000: should have the isolation level of 100.0%"
 p54
-I113
-sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0003: should have 100% isolation level when all modules were excluded'
+I7
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
 p55
-I61
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>, '5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>}.test 0000: should have the isolation level of 50.0%"
+I46
+sS"tests.functional.test_isolators.having The following current modules state: {'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>, '4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>}.test 0000: should have the isolation level of 50.0%"
 p56
 I23
-sS"tests.unit.test_isolators.having The following current modules state: {'2b839cedf32eb5e5f79ea9b394f5fa': <testsuite.testdoubles.TestDouble object at 0x28fcb50>}.test 0000: should call round with 0.0"
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
 p57
-I62
-sS"tests.functional.test_isolators.having The following current modules state: {'39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p58
-I29
-sS"tests.functional.test_isolators.having The following current modules state: {'39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p59
-I44
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p60
-I117
-sS"tests.functional.test_isolators.having The following current modules state: {'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>, '5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 100.0%"
-p61
-I14
-sS"tests.functional.test_isolators.having The following current modules state: {'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p62
-I43
-sS"tests.functional.test_isolators.having The following current modules state: {'010d91d4f36bf43eed3ba19a7f7d18': <testsuite.testdoubles.TestDouble object at 0x26cedd0>}.test 0000: should have the isolation level of 0.0%"
-p63
-I1
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p64
-I32
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p65
 I90
-sS"tests.unit.test_isolators.having The following current modules state: {'dcd0dd7c70990a64c7d6d5c56c71c7': <testsuite.testdoubles.TestDouble object at 0x28fcbd0>}.test 0000: should call round with 0.0"
-p66
-I72
-sS"tests.functional.test_isolators.having The following current modules state: {'b3ccde8b347db6f28594b0d9fb6d86': <object object at 0x7f8332ceb100>, '8fffd43a10058f7ca1738f015ec973': <object object at 0x7f8332ceb120>}.test 0000: should have the isolation level of 100.0%"
-p67
-I8
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>}.test 0000: should have the isolation level of 100.0%"
-p68
-I55
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p69
-I100
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>}.test 0000: should call round with 100.0"
-p70
-I88
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>, '5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>, 'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>}.test 0000: should have the isolation level of 66.67%"
-p71
-I22
-sS"tests.unit.test_isolators.having The following current modules state: {'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 0.0"
-p72
-I85
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p73
-I33
-sS"tests.unit.test_isolators.having The following current modules state: {'51292ee291f1cac472e74547b2ac3c': <object object at 0x7f8332ceb100>}.test 0000: should call round with 100.0"
-p74
-I65
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, '1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>, '26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 50.0"
-p75
-I76
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p76
+sS"tests.unit.test_isolators.having The following current modules state: {'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p58
 I97
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p59
+I92
+sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0003: should have 100% isolation level when all modules were excluded'
+p60
+I61
+sS'tests.unit.test_registry.A Modules Registry.test 0004: should raise a NoModulesRegisteredError when unregistering from an empty modules registry'
+p61
+I126
+sS"tests.functional.test_isolators.having The following current modules state: {'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>, '4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>}.test 0000: should have the isolation level of 66.67%"
+p62
+I22
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p63
+I30
+sS"tests.functional.test_isolators.having The following current modules state: {'e04e49d10cb75408309ef2ae408e49': <object object at 0x7f04ca8e2120>, '7fe3ec63b9cad70f863fefa847e8a5': <object object at 0x7f04ca8e2100>}.test 0000: should have the isolation level of 100.0%"
+p64
+I8
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p65
+I91
+sS"tests.unit.test_isolators.having The following current modules state: {'7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>, 'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>}.test 0000: should call round with 0.0"
+p66
+I86
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p67
+I99
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>}.test 0000: should call round with 100.0"
+p68
+I111
+sS"tests.functional.test_isolators.having The following current modules state: {'4dab9a0f381f932f36be3313110384': <object object at 0x7f04ca8e20f0>, '09756ef84db5d95bc5320f5a2c6802': <testsuite.testdoubles.TestDouble object at 0x23edfd0>}.test 0000: should have the isolation level of 50.0%"
+p69
+I3
+sS"tests.functional.test_isolators.having The following current modules state: {'e04e49d10cb75408309ef2ae408e49': <object object at 0x7f04ca8e2120>, '73e277656ccfbd9e2912da70e8b24b': <object object at 0x7f04ca8e2110>}.test 0000: should have the isolation level of 100.0%"
+p70
+I10
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p71
+I94
+sS"tests.unit.test_isolators.having The following current modules state: {'1705526b3a41daabb4754671563f18': <testsuite.testdoubles.TestDouble object at 0x2622fd0>}.test 0000: should call round with 0.0"
+p72
+I66
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>}.test 0000: should have the isolation level of 100.0%"
+p73
+I45
+sS"tests.unit.test_isolators.having The following current modules state: {'7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 50.0"
+p74
+I80
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p75
+I31
+sS"tests.unit.test_isolators.having The following current modules state: {'cf74e8f45cd6562a0b5086f8223fd4': <testsuite.testdoubles.TestDouble object at 0x2626050>}.test 0000: should call round with 0.0"
+p76
+I72
 sS'tests.unit.test_registry.A Modules Registry.test 0007: should register the current state of the system modules'
 p77
 I129
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
+sS"tests.unit.test_isolators.having The following current modules state: {'5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
 p78
-I54
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
+I88
+sS"tests.functional.test_isolators.having The following current modules state: {'59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
 p79
 I53
-sS"tests.unit.test_isolators.having The following current modules state: {'86570c3719ac9ac5046f5977708ad5': <object object at 0x7f8332ceb110>, '49d8031832379f9b7c548cdf9e8d73': <testsuite.testdoubles.TestDouble object at 0x28fcb90>}.test 0000: should call round with 50.0"
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>}.test 0000: should call round with 100.0"
 p80
-I67
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
-p81
-I39
-sS"tests.unit.test_isolators.having The following current modules state: {'49d8031832379f9b7c548cdf9e8d73': <testsuite.testdoubles.TestDouble object at 0x28fcb90>}.test 0000: should call round with 0.0"
-p82
-I66
-sS"tests.unit.test_isolators.having The following current modules state: {'0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p83
-I105
-sS"tests.unit.test_layers.A Functional Tests Layer.test 0000: should have 'Functional Tests Layer:' as the description"
-p84
-I121
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>, '5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 66.67%"
-p85
-I16
-sS"tests.unit.test_isolators.having The following current modules state: {'0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>}.test 0000: should call round with 100.0"
-p86
 I104
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p87
-I101
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p88
-I93
-sS'tests.unit.test_registry.A Modules Registry.test 0001: should raise a TypeError when attempting to register anything else other then a dictionary'
-p89
-I123
-sS"tests.functional.test_isolators.having The following current modules state: {'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>, '5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>, '2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>}.test 0000: should have the isolation level of 75.0%"
-p90
-I15
-sS'tests.unit.test_registry.A Modules Registry.test 0005: should unregister when a state was registered before'
-p91
-I127
-sS"tests.functional.test_isolators.having The following current modules state: {'2e59b256b05ff8fcb41afc999a8fc6': <object object at 0x7f8332ceb110>, 'b3ccde8b347db6f28594b0d9fb6d86': <object object at 0x7f8332ceb100>}.test 0000: should have the isolation level of 100.0%"
-p92
-I6
-sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0000: should raise a NoModulesRegisteredError when fetching isolation level and no modules are registered'
-p93
-I58
-sS'tests.unit.test_registry.A Modules Registry.test 0000: should have nothing registered when initialized'
-p94
-I122
-sS"tests.functional.test_isolators.having The following current modules state: {'9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
-p95
-I37
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, '9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p96
-I31
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, '26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 66.67"
-p97
-I75
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>}.test 0000: should call round with 100.0"
-p98
-I96
-sS"tests.functional.test_isolators.having The following current modules state: {'6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
-p99
-I36
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>}.test 0000: should have the isolation level of 100.0%"
-p100
-I42
-sS"tests.functional.test_isolators.having The following current modules state: {'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>}.test 0000: should have the isolation level of 100.0%"
-p101
-I24
-sS"tests.unit.test_isolators.having The following current modules state: {'86570c3719ac9ac5046f5977708ad5': <object object at 0x7f8332ceb110>, 'dcd0dd7c70990a64c7d6d5c56c71c7': <testsuite.testdoubles.TestDouble object at 0x28fcbd0>}.test 0000: should call round with 50.0"
-p102
-I71
-sS"tests.functional.test_isolators.having The following current modules state: {'69d23809cdd1d38a101be0fea3fde8': <object object at 0x7f8332ceb0f0>}.test 0000: should have the isolation level of 100.0%"
-p103
-I4
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p104
-I34
-sS"tests.functional.test_isolators.having The following current modules state: {'2aadbff07fdc5c90513c4abb249d2d': <testsuite.testdoubles.TestDouble object at 0x26d92d0>, 'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 66.67%"
-p105
-I18
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p106
-I115
-sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0002: should have 100% isolation level when a module that was replaced with a test double was excluded'
-p107
-I60
-sS"tests.functional.test_isolators.having The following current modules state: {'5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>, 'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>}.test 0000: should have the isolation level of 100.0%"
-p108
-I21
-sS"tests.functional.test_isolators.having The following current modules state: {'39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
-p109
-I51
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>}.test 0000: should call round with 100.0"
-p110
-I89
-sS"tests.unit.test_isolators.having The following current modules state: {'0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p111
-I109
-sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0001: should raise a TypeError when current state is not a dictionary'
-p112
-I59
-sS"tests.functional.test_isolators.having The following current modules state: {'c7b54dc496cb60d7ab92e01e0f6911': <object object at 0x7f8332ceb150>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 100.0%"
-p113
-I17
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>}.test 0000: should have the isolation level of 100.0%"
-p114
-I57
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p115
-I91
-sS"tests.unit.test_isolators.having The following current modules state: {'a5f20ed049fa1c54a09a7b1e33c47f': <object object at 0x7f8332ceb130>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 50.0"
-p116
-I82
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p117
-I47
-sS"tests.unit.test_isolators.having The following current modules state: {'1fd268e0b3bae4d51fc55f65cc54a0': <testsuite.testdoubles.TestDouble object at 0x28fcad0>}.test 0000: should call round with 0.0"
-p118
-I63
-sS"tests.unit.test_isolators.having The following current modules state: {'26de701dc1670fe6c5d3bf78f6212c': <object object at 0x7f8332ceb120>, 'ae63c25f90b87d3d522ef28caac832': <testsuite.testdoubles.TestDouble object at 0x28fcc10>}.test 0000: should call round with 50.0"
-p119
-I78
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p120
-I92
-sS"tests.unit.test_isolators.having The following current modules state: {'dcd0dd7c70990a64c7d6d5c56c71c7': <testsuite.testdoubles.TestDouble object at 0x28fcbd0>, '49d8031832379f9b7c548cdf9e8d73': <testsuite.testdoubles.TestDouble object at 0x28fcb90>}.test 0000: should call round with 0.0"
-p121
-I69
-sS"tests.functional.test_isolators.having The following current modules state: {'39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, '9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p122
-I30
-sS"tests.functional.test_isolators.having The following current modules state: {'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 100.0%"
-p123
-I12
-sS"tests.unit.test_isolators.having The following current modules state: {'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p124
-I112
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p125
-I99
-sS"tests.functional.test_isolators.having The following current modules state: {'2b449aa93244058f1e0190e2346f3d': <object object at 0x7f8332ceb1a0>, '9ff4d6d1efdf35a07a756e8a88d587': <object object at 0x7f8332ceb190>, '6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, '39bb9b1a120841cec6d06f28e4bf44': <object object at 0x7f8332ceb180>}.test 0000: should have the isolation level of 100.0%"
-p126
-I38
-sS"tests.functional.test_isolators.having The following current modules state: {'5e51eea3386e53a395618278dd550a': <object object at 0x7f8332ceb140>, 'a84812bf8521efb93228b93409efc3': <object object at 0x7f8332ceb130>}.test 0000: should have the isolation level of 100.0%"
-p127
-I13
-sS"tests.functional.test_isolators.having The following current modules state: {'6b971adcb35b6bcd0268eca2b062b0': <object object at 0x7f8332ceb160>, 'faaa07a59a857ad66e04c144fb25e3': <object object at 0x7f8332ceb170>}.test 0000: should have the isolation level of 100.0%"
-p128
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>}.test 0000: should have the isolation level of 100.0%"
+p81
 I28
-sS"tests.unit.test_isolators.having The following current modules state: {'1e82872ac5959d167f4ab395b776ea': <testsuite.testdoubles.TestDouble object at 0x28fcc50>}.test 0000: should call round with 0.0"
-p129
-I87
-sS"tests.unit.test_isolators.having The following current modules state: {'0c8698ef5f03f4a9d6dee05b1b99d3': <object object at 0x7f8332ceb140>, '8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>}.test 0000: should call round with 100.0"
-p130
-I102
-sS"tests.unit.test_isolators.having The following current modules state: {'8a2bf1468a17d03fcd78e389ad1aa9': <object object at 0x7f8332ceb180>, '0a560b41bd3dd23c8ca9e50e05a757': <object object at 0x7f8332ceb150>, 'a25af44fd59cf58575bbdec91d251f': <object object at 0x7f8332ceb170>, 'df3a65e31e659d37f663bce589945c': <object object at 0x7f8332ceb160>}.test 0000: should call round with 100.0"
-p131
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>}.test 0000: should have the isolation level of 100.0%"
+p82
+I36
+sS"tests.unit.test_layers.A Functional Tests Layer.test 0000: should have 'Functional Tests Layer:' as the description"
+p83
+I121
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p84
+I114
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p85
+I38
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p86
+I105
+sS'tests.unit.test_registry.A Modules Registry.test 0005: should unregister when a state was registered before'
+p87
+I127
+sS"tests.functional.test_isolators.having The following current modules state: {'2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p88
+I54
+sS"tests.unit.test_isolators.having The following current modules state: {'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 50.0"
+p89
+I78
+sS"tests.unit.test_isolators.having The following current modules state: {'b3ec4db39915df9119bd516d4df236': <object object at 0x7f04ca8e2100>}.test 0000: should call round with 100.0"
+p90
+I65
+sS"tests.unit.test_isolators.having The following current modules state: {'1705526b3a41daabb4754671563f18': <testsuite.testdoubles.TestDouble object at 0x2622fd0>, 'cf74e8f45cd6562a0b5086f8223fd4': <testsuite.testdoubles.TestDouble object at 0x2626050>}.test 0000: should call round with 0.0"
+p91
+I69
+sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0000: should raise a NoModulesRegisteredError when fetching isolation level and no modules are registered'
+p92
+I58
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p93
+I101
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p94
+I40
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p95
+I32
+sS'tests.unit.test_registry.A Modules Registry.test 0000: should have nothing registered when initialized'
+p96
+I122
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>}.test 0000: should call round with 100.0"
+p97
+I81
+sS"tests.unit.test_isolators.having The following current modules state: {'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>}.test 0000: should call round with 0.0"
+p98
+I85
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p99
+I113
+sS"tests.unit.test_isolators.having The following current modules state: {'212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p100
+I100
+sS"tests.unit.test_isolators.having The following current modules state: {'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p101
+I112
+sS"tests.functional.test_isolators.having The following current modules state: {'7fe3ec63b9cad70f863fefa847e8a5': <object object at 0x7f04ca8e2100>}.test 0000: should have the isolation level of 100.0%"
+p102
+I5
+sS"tests.unit.test_isolators.having The following current modules state: {'1705526b3a41daabb4754671563f18': <testsuite.testdoubles.TestDouble object at 0x2622fd0>, '88d8c5344d568c24f11db3ee5c11d5': <object object at 0x7f04ca8e2110>}.test 0000: should call round with 50.0"
+p103
+I67
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>, '4424fecad39e6dc290ee25612ceabf': <testsuite.testdoubles.TestDouble object at 0x23f8450>}.test 0000: should have the isolation level of 66.67%"
+p104
+I18
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>, 'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>}.test 0000: should have the isolation level of 100.0%"
+p105
+I14
+sS"tests.unit.test_isolators.having The following current modules state: {'8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p106
+I108
+sS"tests.functional.test_isolators.having The following current modules state: {'2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p107
+I47
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p108
+I34
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, 'a1a7d9076a7ca514dd24a53bcba2d6': <object object at 0x7f04ca8e2170>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>}.test 0000: should have the isolation level of 100.0%"
+p109
+I33
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, '8976c2e0e7449a80c6380c946a7a41': <object object at 0x7f04ca8e2150>, '212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>}.test 0000: should call round with 100.0"
+p110
 I107
+sS"tests.functional.test_isolators.having The following current modules state: {'e01a67e24aa7feb9e9e5503dd13f61': <object object at 0x7f04ca8e2140>, '89182b9a0ab1e35de381d8d01910ab': <object object at 0x7f04ca8e2150>}.test 0000: should have the isolation level of 100.0%"
+p111
+I21
+sS"tests.functional.test_isolators.having The following current modules state: {'09756ef84db5d95bc5320f5a2c6802': <testsuite.testdoubles.TestDouble object at 0x23edfd0>}.test 0000: should have the isolation level of 0.0%"
+p112
+I2
+sS'tests.unit.test_isolators.A Integration Test Module Isolation Level Calculation.test 0002: should have 100% isolation level when a module that was replaced with a test double was excluded'
+p113
+I60
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '59b1766fa7fbfaa845bfd5facbfac0': <object object at 0x7f04ca8e2190>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p114
+I41
+sS"tests.unit.test_layers.A Unit Tests Layer.test 0000: should have 'Unit Tests Layer:' as the description"
+p115
+I119
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 100.0"
+p116
+I74
+sS"tests.functional.test_isolators.having The following current modules state: {'fcd835d69c44c15a1a74ec18831a87': <object object at 0x7f04ca8e2130>}.test 0000: should have the isolation level of 100.0%"
+p117
+I12
+sS"tests.unit.test_isolators.having The following current modules state: {'212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>}.test 0000: should call round with 100.0"
+p118
+I118
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, 'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 66.67"
+p119
+I75
+sS"tests.unit.test_isolators.having The following current modules state: {'55fc3850eb1b4372347156bbe64c75': <testsuite.testdoubles.TestDouble object at 0x2622f10>, 'b3ec4db39915df9119bd516d4df236': <object object at 0x7f04ca8e2100>}.test 0000: should call round with 50.0"
+p120
+I64
+sS"tests.functional.test_isolators.having The following current modules state: {'73e277656ccfbd9e2912da70e8b24b': <object object at 0x7f04ca8e2110>, '7fe3ec63b9cad70f863fefa847e8a5': <object object at 0x7f04ca8e2100>}.test 0000: should have the isolation level of 100.0%"
+p121
+I6
+sS"tests.unit.test_isolators.having The following current modules state: {'7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>, 'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 33.33"
+p122
+I79
+sS"tests.functional.test_isolators.having The following current modules state: {'d79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p123
+I57
+sS"tests.unit.test_isolators.having The following current modules state: {'212c6aa145759aa3c77c1b82295190': <object object at 0x7f04ca8e2180>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p124
+I103
+sS"tests.unit.test_isolators.having The following current modules state: {'cf74e8f45cd6562a0b5086f8223fd4': <testsuite.testdoubles.TestDouble object at 0x2626050>, '88d8c5344d568c24f11db3ee5c11d5': <object object at 0x7f04ca8e2110>}.test 0000: should call round with 50.0"
+p125
+I71
+sS"tests.functional.test_isolators.having The following current modules state: {'b4371f002baae753a7cb0f5fc219a9': <object object at 0x7f04ca8e2160>, '2fb09198aa1d6b6895b97f1f66288c': <object object at 0x7f04ca8e2180>, 'd79965e5566d71e8b77d38f40b8075': <object object at 0x7f04ca8e21a0>}.test 0000: should have the isolation level of 100.0%"
+p126
+I39
+sS"tests.unit.test_isolators.having The following current modules state: {'b3c9788a3023b696ccc8dbee7f23b8': <object object at 0x7f04ca8e2130>, '7a615c0eb3428887337ae94a1dd840': <testsuite.testdoubles.TestDouble object at 0x26260d0>, 'ba222e1f148931a457820271e4adab': <testsuite.testdoubles.TestDouble object at 0x2626090>, '5f78c009b0656a4a42ed33258d2f90': <object object at 0x7f04ca8e2120>}.test 0000: should call round with 50.0"
+p127
+I76
+sS"tests.unit.test_isolators.having The following current modules state: {'7a0d37b5827f6b4921e7bb191b33c0': <object object at 0x7f04ca8e2170>, 'bd53804c1ff4c091c2b9481740e034': <object object at 0x7f04ca8e2160>, '5561c4841197b914766932a84e3183': <object object at 0x7f04ca8e2140>}.test 0000: should call round with 100.0"
+p128
+I98
+sS"tests.functional.test_isolators.having The following current modules state: {'4dab9a0f381f932f36be3313110384': <object object at 0x7f04ca8e20f0>}.test 0000: should have the isolation level of 100.0%"
+p129
+I4
+sS"tests.functional.test_isolators.having The following current modules state: {'e04e49d10cb75408309ef2ae408e49': <object object at 0x7f04ca8e2120>}.test 0000: should have the isolation level of 100.0%"
+p130
+I11
+sS"tests.unit.test_isolators.having The following current modules state: {'55fc3850eb1b4372347156bbe64c75': <testsuite.testdoubles.TestDouble object at 0x2622f10>}.test 0000: should call round with 0.0"
+p131
+I63
 ssS'ids'
 p132
 (dp133
 I1
-g63
+g39
 sI2
-g42
+g112
 sI3
-g30
+g69
 sI4
-g103
+g129
 sI5
-g47
+g102
 sI6
-g92
+g121
 sI7
-g6
+g54
 sI8
-g67
+g64
 sI9
-g5
+g27
 sI10
-g31
+g70
 sI11
-g12
+g130
 sI12
-g123
+g117
 sI13
-g127
+g4
 sI14
-g61
-sI15
-g90
-sI16
-g85
-sI17
-g113
-sI18
 g105
+sI15
+g40
+sI16
+g33
+sI17
+g15
+sI18
+g104
 sI19
-g48
+g23
 sI20
-g34
+g25
 sI21
-g108
+g111
 sI22
-g71
+g62
 sI23
 g56
 sI24
-g101
+g49
 sI25
-g46
+g31
 sI26
-g28
+g44
 sI27
-g15
+g6
 sI28
-g128
-sI29
-g58
-sI30
-g122
-sI31
-g96
-sI32
-g64
-sI33
-g73
-sI34
-g104
-sI35
-g37
-sI36
-g99
-sI37
-g95
-sI38
-g126
-sI39
 g81
-sI40
-g51
-sI41
-g39
-sI42
-g100
-sI43
-g62
-sI44
-g59
-sI45
-g4
-sI46
-g33
-sI47
-g117
-sI48
-g16
-sI49
-g26
-sI50
-g43
-sI51
+sI29
+g14
+sI30
+g63
+sI31
+g75
+sI32
+g95
+sI33
 g109
-sI52
+sI34
+g108
+sI35
+g10
+sI36
+g82
+sI37
+g48
+sI38
+g85
+sI39
+g126
+sI40
+g94
+sI41
+g114
+sI42
 g13
+sI43
+g5
+sI44
+g20
+sI45
+g73
+sI46
+g55
+sI47
+g107
+sI48
+g29
+sI49
+g37
+sI50
+g46
+sI51
+g9
+sI52
+g32
 sI53
 g79
 sI54
-g78
-sI55
-g68
-sI56
-g40
-sI57
-g114
-sI58
-g93
-sI59
-g112
-sI60
-g107
-sI61
-g55
-sI62
-g57
-sI63
-g118
-sI64
-g52
-sI65
-g74
-sI66
-g82
-sI67
-g80
-sI68
-g14
-sI69
-g121
-sI70
-g53
-sI71
-g102
-sI72
-g66
-sI73
-g17
-sI74
-g20
-sI75
-g97
-sI76
-g75
-sI77
-g35
-sI78
-g119
-sI79
-g8
-sI80
-g10
-sI81
-g24
-sI82
-g116
-sI83
-g3
-sI84
-g7
-sI85
-g72
-sI86
-g27
-sI87
-g129
-sI88
-g70
-sI89
-g110
-sI90
-g65
-sI91
-g115
-sI92
-g120
-sI93
 g88
-sI94
-g36
-sI95
-g19
-sI96
-g98
-sI97
-g76
-sI98
-g41
-sI99
-g125
-sI100
-g69
-sI101
-g87
-sI102
-g130
-sI103
+sI55
 g50
-sI104
-g86
-sI105
-g83
-sI106
-g9
-sI107
-g131
-sI108
-g23
-sI109
-g111
-sI110
-g22
-sI111
-g29
-sI112
-g124
-sI113
-g54
-sI114
-g49
-sI115
-g106
-sI116
-g32
-sI117
+sI56
+g34
+sI57
+g123
+sI58
+g92
+sI59
+g43
+sI60
+g113
+sI61
 g60
-sI118
-g44
-sI119
-g18
-sI120
+sI62
 g38
-sI121
-g84
-sI122
-g94
-sI123
-g89
-sI124
-g45
-sI125
-g11
-sI126
-g21
-sI127
+sI63
+g131
+sI64
+g120
+sI65
+g90
+sI66
+g72
+sI67
+g103
+sI68
+g17
+sI69
 g91
+sI70
+g18
+sI71
+g125
+sI72
+g76
+sI73
+g45
+sI74
+g116
+sI75
+g119
+sI76
+g127
+sI77
+g26
+sI78
+g89
+sI79
+g122
+sI80
+g74
+sI81
+g97
+sI82
+g30
+sI83
+g47
+sI84
+g22
+sI85
+g98
+sI86
+g66
+sI87
+g8
+sI88
+g78
+sI89
+g35
+sI90
+g57
+sI91
+g65
+sI92
+g59
+sI93
+g3
+sI94
+g71
+sI95
+g16
+sI96
+g24
+sI97
+g58
+sI98
+g128
+sI99
+g67
+sI100
+g100
+sI101
+g93
+sI102
+g52
+sI103
+g124
+sI104
+g80
+sI105
+g86
+sI106
+g19
+sI107
+g110
+sI108
+g106
+sI109
+g12
+sI110
+g42
+sI111
+g68
+sI112
+g101
+sI113
+g99
+sI114
+g84
+sI115
+g41
+sI116
+g51
+sI117
+g21
+sI118
+g118
+sI119
+g115
+sI120
+g11
+sI121
+g83
+sI122
+g96
+sI123
+g28
+sI124
+g53
+sI125
+g7
+sI126
+g61
+sI127
+g87
 sI128
-g25
+g36
 sI129
 g77
 ss.
