@@ -10,4 +10,6 @@ env:
 install:
   - pip install -r ./requirements/development.txt --use-mirrors
 script:
-  nose2 --verbose --log-capture
+  - nose2 --verbose --log-capture --with-cov
+after_success:
+  - coveralls

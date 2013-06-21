@@ -6,6 +6,10 @@ nose2-testsuite
     :alt: Build Status
     :target: https://travis-ci.org/thedrow/nose2-testsuite
 
+.. image:: https://coveralls.io/repos/thedrow/nose2-testsuite/badge.png
+    :alt: Coverage Status
+    :target: https://coveralls.io/r/thedrow/nose2-testsuite
+
 nose2-testsuite is a highly opinionated nose2 plugin that aims to assist you to write a better test suite for your
 Python projects.
 
