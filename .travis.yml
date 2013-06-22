@@ -13,8 +13,9 @@ matrix:
       env: USE_CACHES_SAMPLES=false
 install:
   - pip install -r ./requirements/development.txt --use-mirrors
+  - pip install pygments>=1.6
 script:
-  - nose2 --verbose --log-capture --with-cov
-  - coverage combine
+  - nose2 --verbose --log-capture --with-cov | pygmentize -l python
+  - mv .coverage.* .coverage
 after_success:
-  - coveralls
+  - coveralls --verbose | python -c "import fileinput;print('{%s' % str.join('', fileinput.input()).split('{', 1)[1])" | python -mjson.tool | pygmentize -l json
